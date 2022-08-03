@@ -6,13 +6,7 @@ const StitchesLogo = () => (
     viewBox="0 0 35 35"
     fill="none"
   >
-    <circle
-      cx="17.5"
-      cy="17.5"
-      r="14.5"
-      stroke="currentColor"
-      strokeWidth="2"
-    />
+    <circle cx="17.5" cy="17.5" r="14.5" stroke="currentColor" strokeWidth="2" />
     <path d="M12.8184 31.3218L31.8709 20.3218" stroke="currentColor" />
     <path d="M3.31836 14.8674L22.3709 3.86743" stroke="currentColor" />
     <path
