@@ -1,4 +1,5 @@
 {
+  "name": "app-starter",
   "private": true,
   "scripts": {
     "build": "next build",
