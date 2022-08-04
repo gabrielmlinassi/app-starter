@@ -12,11 +12,11 @@
   "dependencies": {
     "@stitches/react": "1.2.8",
     "next": "latest",
-    "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "prettier": "^2.7.1",
     "@types/node": "^18.6.3",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
@@ -35,7 +35,7 @@
   "lint-staged": {
     "src/**/*.{js,ts,jsx,tsx}": [
       "eslint",
-      "prettier"
+      "prettier --write"
     ]
   }
 }
