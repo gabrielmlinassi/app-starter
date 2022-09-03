@@ -25,7 +25,9 @@ img {
   max-width: 100%;
 }
 
-body {
-  width: 100vw;
-  min-height: 100vh;
+html,
+body,
+div#__next,
+div#__next > div {
+  height: 100%;
 }

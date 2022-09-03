@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import StitchesLogo from 'components/StitchesLogo'
 import { styled } from 'stitches.config'
+import { NextPageWithLayout } from './_app'
+import Layout from 'components/Layout'
 
 const Box = styled('div', {})
 
@@ -34,7 +36,7 @@ const Container = styled('div', {
   },
 })
 
-export default function Home() {
+const Home: NextPageWithLayout = () => {
   return (
     <Box css={{ paddingY: '$6' }}>
       <Head>
@@ -51,3 +53,9 @@ export default function Home() {
     </Box>
   )
 }
+
+Home.getLayout = (page) => {
+  return <Layout>{page}</Layout>
+}
+
+export default Home
