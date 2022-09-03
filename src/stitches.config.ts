@@ -47,6 +47,7 @@ export const { config, createTheme, css, getCssText, globalCss, styled, theme } 
         6: '21px',
       },
       fonts: {
+        gotham: 'gotham',
         system: 'system-ui',
       },
     },

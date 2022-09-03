@@ -5,7 +5,7 @@ import { styled } from 'stitches.config'
 const Box = styled('div', {})
 
 const Text = styled('p', {
-  fontFamily: '$system',
+  fontFamily: '$gotham',
   color: '$hiContrast',
 })
 

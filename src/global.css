@@ -1,0 +1,31 @@
+@font-face {
+  font-family: gotham;
+  src: url('/fonts/GothamSSm-Book_Web.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: gotham;
+  src: url('/fonts/GothamSSm-Medium_Web.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+:root {
+  font-family: gotham, sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
